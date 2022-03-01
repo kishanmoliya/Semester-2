@@ -9,6 +9,7 @@ public class area{
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter redius");
 		int r = input.nextInt();
+		
 		area obj1 = new area();
 		float ans = obj1.circlearea(r);
 		System.out.print("Ans a Circle = "+ans);

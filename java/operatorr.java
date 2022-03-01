@@ -1,4 +1,4 @@
-public class operator{
+public class operatorr{
 	public static void main(String[] args){
 		System.out.println("10+20*30 = "+(10+20*30));
 		System.out.println("100/10*100 = "+(100/10*100));

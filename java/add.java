@@ -1,8 +1,8 @@
 import java.util.Scanner;
-public class avg{
-	static float calclute(int x,int y ,int z)
+public class add{
+	int sum(int x,int y)
 	{
-		float c = (float)(x+y+z)/3;
+		int c = x+y;
 		return c;
 	}
 	public static void main(String[] args){
@@ -13,11 +13,9 @@ public class avg{
 		System.out.println("Enter the value of b = ");
 		int b = input.nextInt();
 
-		System.out.println("Enter the value of c = ");
-		int c = input.nextInt();
-
-		float ans = calclute(a,b,c);
-		System.out.print("Avarage of three number is = "+ans);
+		add obj1 = new add();
+		int ans = obj1.sum(a,b);
+		System.out.print("Sum of two number is = "+ans);
 
 	}
 }
