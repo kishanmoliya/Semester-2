@@ -194,6 +194,9 @@ Update Borrow Set Loanno = 401 , Bname = 'Ajni'
 Where Loanno = 201 
 And Bname = 'Vrce'
 
+Update Customers Set Cname = 'Anil Jain'
+Where Cname = 'Anil'
+
 Update Deposit Set Cname = 'Remesh' , Bname = 'Vrce' , Amount = 5500
 Where Actno = 102
 
@@ -216,8 +219,8 @@ Delete From Borrow
 Where Bname = 'Ajni'
 
 Delete From Borrow
-Where Loanno = 201
-And Loanno = 210
+Where Loanno > 201
+And Loanno < 210
 
 Delete From Deposit
 Where Adate > '1996-12-01'
