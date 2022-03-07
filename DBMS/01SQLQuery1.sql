@@ -200,7 +200,7 @@ Where Cname = 'Anil'
 Update Deposit Set Cname = 'Remesh' , Bname = 'Vrce' , Amount = 5500
 Where Actno = 102
 
-Update Borrow Set Bname = 'NUll' , Amount = Null
+Update Borrow Set Bname = NUll , Amount = Null
 Where Loanno = 481
 And Bname ='Kranti'
 
