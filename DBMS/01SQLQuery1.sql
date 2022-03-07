@@ -157,7 +157,7 @@ Select distinct city from Branch
 
 Select * from Customers order by city asc
 
-Select * from Deposit order by Amount asc /*order by amount desc*/
+Select * from Deposit order by Amount asc            /*order by amount desc*/
 
 Select * from Customers order by city desc
 
