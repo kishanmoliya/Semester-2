@@ -157,7 +157,7 @@ Select distinct city from Branch
 
 Select * from Customers order by city asc
 
-Select * from Deposit order by Amount asc	/*order by amount desc*/
+Select * from Deposit order by Amount asc            /*order by amount desc*/
 
 Select * from Customers order by city desc
 
@@ -200,7 +200,7 @@ Where Cname = 'Anil'
 Update Deposit Set Cname = 'Remesh' , Bname = 'Vrce' , Amount = 5500
 Where Actno = 102
 
-Update Borrow Set Bname = 'NUll' , Amount = Null
+Update Borrow Set Bname = NUll , Amount = Null
 Where Loanno = 481
 And Bname ='Kranti'
 
