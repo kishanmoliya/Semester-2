@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class Vowels {
+        public static void main(String[] args){    
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.print("Enter the String = ");
+        String s1 = sc.nextLine();
+        String lower = s1.toLowerCase();
+
+        int vowels=0,consonant=0;
+        for(int i=0;i<lower.length();i++)
+        {
+            char ch = lower.charAt(i);
+            if(ch=='a' ||ch=='e' ||ch=='i' ||ch=='o' ||ch=='u')
+            {
+                vowels++;
+            }
+            else
+            {
+                consonant++;
+            }
+        }
+        System.out.println("Consonant in your String = "+consonant);
+        System.out.println("Vowels in your String = "+vowels);
+
+    }
+}
