@@ -4,16 +4,15 @@ import java.util.Scanner;
         public static void main(String[] args){
             Scanner input = new Scanner(System.in);
             int b;
-            System.out.print("Enter no1 : ");
+            System.out.print("Enter the value of x : ");
             int x=input.nextInt();
-            System.out.print("Enter no2 : ");
+            System.out.print("Enter the value of y : ");
             int y=input.nextInt();
 
             System.out.println("sum = addtion of both number \nsub = subtrction of both number \nmul = multipiycation of both number \ndiv = divition of both number");
             
             System.out.print("enter desition : ");
-            Scanner scan = new Scanner(System.in);
-            String a = scan.nextLine();
+            String a = input.next();
             System.out.print(a+" = ");
             
             if(a.equals("sum")){
