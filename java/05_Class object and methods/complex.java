@@ -28,9 +28,6 @@ public class complex{
         complexnumber c1 = new complexnumber(5.6 , 8.5);
         complexnumber c2 = new complexnumber(5.3 , 5.9);
 
-
-       
-
         complexnumber sum = new complexnumber();
         sum = c1.sum_num(c2);
         sum.displaynumber();
