@@ -19,5 +19,11 @@ public class larjest3{
 
         else
         System.out.print("c is larjest");
+
+
+        // int larjest;
+        // larjest = (a>b && a>c) ? a : ((b>a && b>c) ? b : c);
+
+        // System.out.printf("Larjest among %d %d and %d is %d",a,b,c,larjest);
     }
 }

@@ -17,3 +17,7 @@ public class pattern5{
 		}
 	}
 }
+
+// A
+// AB
+// ABC

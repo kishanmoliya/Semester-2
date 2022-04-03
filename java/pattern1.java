@@ -14,3 +14,9 @@ public class pattern1{
 		}
 	}
 }
+
+
+
+// *
+// * *
+// * * *

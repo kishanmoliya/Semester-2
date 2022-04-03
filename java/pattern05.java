@@ -19,3 +19,9 @@ public class pattern05{
         }
     }
 }
+
+
+
+//   1
+//  2 2
+// 3 3 3

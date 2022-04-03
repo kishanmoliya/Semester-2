@@ -9,7 +9,7 @@ import java.util.Scanner;
             System.out.print("Enter the value of y : ");
             int y=input.nextInt();
 
-            System.out.println("sum = addtion of both number \nsub = subtrction of both number \nmul = multipiycation of both number \ndiv = divition of both number");
+            System.out.println("sum = addtion of both number \nsub = substrction of both number \nmul = multiplication of both number \ndiv = divition of both number");
             
             System.out.print("enter desition : ");
             String a = input.next();
@@ -21,15 +21,15 @@ import java.util.Scanner;
             }
             else if(a.equals("sub")){
                 b=x-y;
-                System.out.println(+b);
+                System.out.println(b);
             }
             else if(a.equals("mul")){
                  b=x*y;
-                System.out.println(+b);
+                System.out.println(b);
             }
             else if(a.equals("div")){
                 b=x/y;
-                System.out.println(+b);
+                System.out.println(b);
             }
             else {
                 System.out.println("envlid value");

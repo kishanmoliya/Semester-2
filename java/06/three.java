@@ -21,7 +21,7 @@ class employee extends member{
     String specialization;
 
     public employee(String name ,int age, String phonnumber , String address , double salary ,String specialization){
-        super(name, age, phonnumber, address, salary, specialization);
+        super(name, age, phonnumber, address, salary);
         this.specialization = specialization;
     }
 } 
@@ -29,7 +29,7 @@ class manager extends member{
     String department;
 
     public manager(String name ,int age, String phonnumber , String address , double salary ,String department){
-        super(name, age, phonnumber, address, salary, department);
+        super(name, age, phonnumber, address, salary);
         this.department = department;
     }
 }
