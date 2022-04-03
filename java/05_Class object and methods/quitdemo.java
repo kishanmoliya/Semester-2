@@ -1,53 +1,25 @@
 import java.util.Scanner;
-class quitdemo{
-	public static void main(String [] args){
+class vowel{
+	int totalvowel = 0;
+	public vowel(){
 		Scanner sc = new Scanner(System.in);
-
-		int vowel = 0;
-		String str;
+		String k;
 		do{
-			System.out.print("Enter String = ");
-			str = sc.nextLine();
-
-			char ch;
-			for(int i=0;i<str.length();i++){
-				str = str.toLowerCase();
-				ch = str.charAt(i);
-
-				if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u'){
-					vowel++;
+			System.out.print("Enter Sentence = ");
+			k = sc.nextLine();
+			for(int i=0;i<k.length();i++){
+				k = k.toLowerCase();
+				if(k.charAt(i) == 'a' || k.charAt(i) == 'e' || k.charAt(i) == 'i' || k.charAt(i) =='o' || k.charAt(i) =='u'){
+					totalvowel++;
 				}
 			}
-		}while(!str.equalsIgnoreCase("quit"));
-		vowel = vowel-2;
-		System.out.print("Number of vowel = "+vowel);
+		}while(!k.equalsIgnoreCase("quit"));
+		totalvowel = totalvowel - 2;
+		System.out.print("Total vowel = "+totalvowel);
 	}
 }
-
-
-
-
-
-
-
-// class counter{
-// 	static int count = 0;
-
-// 	counter(){
-// 		count++;
-// 	}
-// 	void display(){
-// 		System.out.println("Enter string = "+count);
-// 	}
-// }
-
-// public class quitdemo{
-// 	public static void main(String  []args){
-// 		counter c1 = new counter();
-// 		c1.display();
-// 		counter c2 = new counter();
-// 		c2.display();
-// 		counter c3 = new counter();
-// 		c3.display();
-// 	}
-// }
+public class quitdemo{
+	public static void main(String[] args) {
+		vowel n = new vowel();
+	}
+}

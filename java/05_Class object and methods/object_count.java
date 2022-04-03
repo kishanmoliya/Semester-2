@@ -1,6 +1,6 @@
 class count
 {
-    int k=0;
+    static int k=0;
     count(){
         k++;
     }
