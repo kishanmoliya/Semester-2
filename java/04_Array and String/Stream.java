@@ -7,10 +7,9 @@ public class Stream{
 
         for(int i=0;i<a.length();i++)
         {
-            for(int j=i;j<=a.length()*2-1;j++){
+            for(int j=i;j<a.length();j++){
                 System.out.print(" ");
             }
-    
             for(int k=0;k<=i;k++)
             {
                 System.out.print(a.charAt(k)+" ");

@@ -7,7 +7,7 @@ public class Diamondshap {
 
         for(int i=1;i<n;i++)
         {
-            for(int j=i;j<=n;j++)
+            for(int j=i;j<n;j++)
             {
                 System.out.print(" ");
             }
@@ -19,8 +19,8 @@ public class Diamondshap {
 
         for(int i=n;n>0;n--)
         {
-            for(int j=n;j<=i;j++)
-            {
+            for(int j=n;j<i;j++)
+            {   
                 System.out.print(" ");
             }
             for(int k=n;k>0;k--)
