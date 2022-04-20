@@ -33,7 +33,7 @@ class manager extends member{
         this.department = department;
     }
 }
-public class three{
+public class employdemo{
     public static void main(String[] args) {
         employee e = new employee("abc",19,"4567894567","asdf",1230.25,"kjff");
         manager m = new manager("abbc",18,"4451894567","asdgfrf",12380.25,"dep");

@@ -20,7 +20,7 @@ class mypoint{
         
     }
 }
-public class four{
+public class towD_X_Y{
     public static void main(String[] args) {
         mypoint mp1 = new mypoint();
         mypoint mp2 = new mypoint(1,1);
