@@ -1,50 +1,34 @@
-abstract class vagetable{
-    abstract String color();
+abstract class vegetable{
+    String color;
+    abstract public String toString();
 }
-class potato extends vagetable{
-    public String color(){
-        return "chamdi";
+class potato extends vegetable{
+    public String toString(){
+        color = "Potato's color is Yellow";
+        return color;
     }
 }
-class bringle extends vagetable{
-    public String color(){
-        return "green";
+class bringle extends vegetable{
+    public String toString(){
+        color = "Bringle's color is Purpal";
+        return color;
     }
 }
-class tomato extends vagetable{
-    public String color(){
-        return "red";
-    }
-}
-
-class p extends potato{
-    public String color(){
-        return "Potato";
-    }
-}
-class b extends bringle{
-    public String color(){
-        return "Bringle";
-    }
-}
-class t extends tomato{
-    public String color(){
-        return "Tomato";
+class tomato extends vegetable{
+    public String toString(){
+        color = "Tomato's color is Red";
+        return color;
     }
 }
 
 class vagetabledemo{
     public static void main(String[] args) {
         potato p = new potato();
-        p p1 = new p();
-        System.out.println("Color of "+p1.color()+" is "+p.color());
-
         bringle b = new bringle();
-        b b1 = new b();
-        System.out.println("Color of "+b1.color()+" is "+b.color());
-
         tomato t = new tomato();
-        t t1 = new t();
-        System.out.println("Color of "+t1.color()+" is "+t.color());
+
+        System.out.println(p.toString());
+        System.out.println(b.toString());
+        System.out.println(t.toString());
     }
 }
