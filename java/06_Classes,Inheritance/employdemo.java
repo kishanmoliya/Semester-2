@@ -1,5 +1,5 @@
 class member{
-    String name;
+    String name; 
     int age;
     String phonnumber;
     String address;
