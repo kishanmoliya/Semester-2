@@ -1,52 +1,62 @@
-interface transport{
+interface Transport{
     void deliver();
 }
-abstract class animal{
-    abstract void forest();
+abstract class Animal {
+    abstract void display();
 }
-class tiger extends animal{
-    void forest(){
-        System.out.println("This is Tiger");
+class Tiger extends Animal{
+    void display(){
+        System.out.println("Display Method calling of Tiger class.");
     }
 }
-class camel extends animal implements transport{
-    void forest(){
-        System.out.println("This is Camel");
-    }
+class Camel extends Animal implements Transport{
+	Camel(){
+		deliver();
+	}
     public void deliver(){
-        System.out.println("This is Camel in interface class");
+        System.out.println("Method calling of Transport Interface through Camel class.");
+    }
+    void display(){
+        System.out.println("Display Method calling of Camel class.");
     }
 }
-class deer extends animal{
-    void forest(){
-        System.out.println("This is Deer");
+class Deer extends Animal{
+    void display(){
+        System.out.println("Display Method calling of Deer class.");
     }
 }
-class donkey extends animal implements transport{
-    void forest(){
-        System.out.println("This is Donkey");
-    }
+class Donkey extends Animal implements Transport{
+	Donkey(){
+		deliver();
+	}
     public void deliver(){
-        System.out.println("This is Donkey in Interface class");
+        System.out.println("Method calling of Transport Interface through Donkey class.");
+    }
+    void display(){
+        System.out.println("Display Method calling of Donkey class.");
+    }
+}
+public class transportdemo{
+    public static void main(String[] args){
+        Animal [] animal = new Animal[4];
+        animal[0] = new Tiger();
+        animal[1] = new Camel();
+        animal[2] = new Deer();
+        animal[3] = new Donkey();
+
+        System.out.println("-------------------------------- Display Method Calling -----------------------------------");
+
+        animal[0].display();
+        animal[1].display();
+        animal[2].display();
+        animal[3].display();
+
+        // System.out.println("-------------------------------- Deliver Method Calling -----------------------------------");
+
+        // Camel a1 = new Camel();
+        // a1.deliver();
+        // Donkey a2 = new Donkey();
+        // a2.deliver();
     }
 }
 
-public class transportdemo {
- public static void main(String[] args) {
-        animal[] an = new animal[4];
-        an[0] = new tiger();
-        an[1] = new camel();
-        an[2] = new deer();
-        an[3] = new donkey();
-
-        an[0].forest();
-        an[1].forest();
-        an[2].forest();
-        an[3].forest();
-
-        camel c = new camel();
-        c.deliver();
-        donkey d = new donkey();
-        d.deliver();
-    }   
-}
