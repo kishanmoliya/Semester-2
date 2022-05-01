@@ -1,3 +1,5 @@
+----> Date Function <----
+
 Select GETDATE()
 
 Select GETDATE()+365
