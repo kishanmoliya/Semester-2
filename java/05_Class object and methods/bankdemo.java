@@ -1,3 +1,7 @@
+/* Create a class named Bank_Account with data memebers accountNo, userName, email, accountType and accountBalance,
+   Also create methods getAccountDetails() and displayAccountDetails().
+ */
+
 import java.util.Scanner;
 class bank_account{
     int accountno;

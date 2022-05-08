@@ -1,8 +1,9 @@
+//  Write a java program to do sum of command line argument passed as two Double numbers.
 public class commandsum {
     public static void main(String[] args){
-        int a = Integer.parseInt(args[0]);
-        int b = Integer.parseInt(args[1]);
-        int Sum = a+b;
+        double a = Double.parseDouble(args[0]);
+        double b = Double.parseDoubble(args[1]);
+        double Sum = a+b;
         System.out.println("Sum of two numbers is = "+Sum);
     }
 }

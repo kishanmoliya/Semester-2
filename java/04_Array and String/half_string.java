@@ -1,3 +1,4 @@
+// Write a program to find length of string and print second half of the string.
 import java.util.Scanner;
 public class half_string {
     public static void main(String[] args){

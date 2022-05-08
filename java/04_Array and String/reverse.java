@@ -1,4 +1,4 @@
-
+// Write a program to print given array in reverse order.
 import java.util.Scanner;
 public class reverse {
     public static void main(String[] args){

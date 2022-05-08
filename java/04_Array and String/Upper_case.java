@@ -1,3 +1,6 @@
+//Write an application that searches through its command-line argument. If an argument is found that does not begin with 
+//and upper case letter, display error message and terminate.
+
 import java.util.Scanner;
 public class Upper_case{
     public static void main(String[] args){

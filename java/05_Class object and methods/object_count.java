@@ -1,3 +1,6 @@
+// WAP that counts the number of objects created using static.
+
+
 class count
 {
     static int k=0;

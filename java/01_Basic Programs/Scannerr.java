@@ -1,3 +1,4 @@
+// Taking user input through Scanner class.
 
 import java.util.Scanner;
 public class Scannerr{

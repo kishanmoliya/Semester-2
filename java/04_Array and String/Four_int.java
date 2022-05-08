@@ -1,3 +1,5 @@
+// Write a program that creates and initializes a four integer element array. Calculate and display the average of its values.
+
 import java.util.Scanner;
 public class Four_int {
     public static void main(String[] args){

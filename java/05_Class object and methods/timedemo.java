@@ -1,3 +1,5 @@
+// Define Time class with constructor to initialize hour and minute. Also define addition method to add two time objects
+
 class time{
 	int hour,min,sec;
 	time(){

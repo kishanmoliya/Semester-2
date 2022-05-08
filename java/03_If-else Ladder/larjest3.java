@@ -1,3 +1,5 @@
+// Write a program to find maximum no from given 3 no
+
 import java.util.Scanner;
 public class larjest3{
     public static void main(String[] args){

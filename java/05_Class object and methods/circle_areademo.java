@@ -1,3 +1,5 @@
+// Write a program to create circle class with area function to find area of circle.
+
 import java.util.Scanner;
 class circle
 {

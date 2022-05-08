@@ -1,3 +1,13 @@
+/*  Create a class named ThreeDPoint to model a point in a three-dimensional space. Let ThreeDPoint be derived from MyPoint 
+with following additional features:
+
+i. A data fields named z that represents the z-coordinate.
+ii. A no-arg constructor that creates a point (0, 0, 0).
+iii. A constructor that constructs a point with three specified coordinates.
+iv. A get method that returns the z value.
+v. Override the distance method to return the distance between two points in the three-dimensional space.
+vi. Write a program that creates two points (0, 0, 0) and (10, 30, 25.5) and display the distance between the two points. */ 
+
 import java.util.Scanner;
 
 class myPointThreeD{
