@@ -1,15 +1,15 @@
 class MyHeadPhone{
-    public static int stoke=5;
+    public static int stock=5;
     void producer() {
         while (true) {
-            stoke++;
-            System.out.println("stoke = " + stoke);
+            stock++;
+            System.out.println("Producer = " + stock);
             try {
                 Thread.sleep((long) Math.random()*300);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            if(stoke>5){
+            if(stock>5){
                 try {
                     Thread.sleep(800);
                 } catch (InterruptedException e) {
@@ -20,16 +20,16 @@ class MyHeadPhone{
     }
     void consumer(){
         while (true) {
-            stoke--;
-            System.out.println("stoke = " + stoke);
+            stock--;
+            System.out.println("Consumer = " + stock);
             try {
                 Thread.sleep((long) Math.random()*200);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            if(stoke<1){
+            if(stock<1){
                 try {
-                    Thread.sleep(1800);
+                    Thread.sleep(1000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
