@@ -16,7 +16,7 @@ public class Stream{
 
         for(int i=0;i<a.length();i++)
         {
-            for(int j=i;j<a.length();j++){
+            for(int j=i;j<a.length()-1;j++){
                 System.out.print(" ");
             }
             for(int k=0;k<=i;k++)
