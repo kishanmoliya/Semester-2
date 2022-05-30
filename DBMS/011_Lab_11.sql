@@ -56,7 +56,6 @@ insert into Department values(40,'civil')
         (Select Rno From Academic Where SPI In
          Select MAX(SPI) From Academic))
 
-
 6.  Select Name From Student2 Where Rno IN
 	(Select Rno From Academic Where Bklog>1)
 
@@ -64,12 +63,11 @@ insert into Department values(40,'civil')
         (Select Rno From Academic Where SPI In
          (Select MAX(SPI) From Academic Where SPI<(Select MAX(SPI) From Academic)))
 
-
-
 8.  Select Name From Student2 Where Did In
 	(Select Did From Department Where Dname IN('Computer','Mechanical'))
 
-9. 
+9.  Select Name From Student2 Where Did In
+        (Select Did From Student2 Where Rno=102)
 
 
 10. Select Name From Student2 Where Rno IN
