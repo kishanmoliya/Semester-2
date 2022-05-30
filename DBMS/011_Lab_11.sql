@@ -52,7 +52,9 @@ insert into Department values(40,'civil')
 4.  Select COUNT(*) From Student2 Where Did IN
 	(Select Did From Department Where DName = 'Electrical')
 
-5. 
+5.  Select Name From Student2 Where Rno In
+        (Select Rno From Academic Where SPI In
+         Select MAX(SPI) From Academic)
 
 
 6.  Select Name From Student2 Where Rno IN
