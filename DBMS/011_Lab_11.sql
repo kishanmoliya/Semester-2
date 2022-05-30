@@ -71,5 +71,6 @@ insert into Department values(40,'civil')
 
 
 10. Select Name From Student2 Where Rno IN
-	(Select Rno From Academic Where SPI>9)
-	(Select Did From Department Where Dname = 'Electrical')
+	(Select Rno From Academic Where SPI>9) 
+        AND
+	Did = (Select Did From Department Where Dname = 'Electrical')
