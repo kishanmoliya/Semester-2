@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 import javax.xml.transform.SourceLocator;
 class student{
-    int no_of_student_registered,id_no,n;
+    int no_of_subject_registered,id_no,n;
     int[] subject_credit;
     String[] subject_code,gred_obtained;
     double spi,point,total_credit,total_point;
@@ -21,7 +21,7 @@ class student{
         System.out.print("Enter the number of Subject = ");
         no_of_student_registered = sc.nextInt();
 
-        int n = no_of_student_registered;
+        int n = no_of_subject_registered;
 
         subject_credit = new int[n];
         subject_code = new String[n];
