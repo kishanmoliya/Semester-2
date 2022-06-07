@@ -1,1 +1,0 @@
-totalvowel = totalvowel - 2;
