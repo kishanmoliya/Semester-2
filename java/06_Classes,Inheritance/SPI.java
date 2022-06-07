@@ -55,7 +55,7 @@ class student{
     public void printStudentDdetails(){
         System.out.println("-------- Result! --------");
         System.out.println("Student Id = "+id_no);
-        System.out.println("Total Subject = "+no_of_student_registered);
+        System.out.println("Total Subject = "+no_of_subject_registered);
 
         for(int i=0;i<n;i++){
             System.out.println("Subject Credit and grede = "+subject_credit[i] + " " + gred_obtained[i]);
