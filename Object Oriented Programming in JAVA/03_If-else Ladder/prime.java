@@ -11,14 +11,14 @@ public class prime{
         int k=0;
         for(int i=2;i<=n/2;i++)
         {
-            if(n%i!=0)
+            if(n%i==0)
             k++;
             break;
         }
         if(k==1)
-        System.out.print("Number is Prime");
+        System.out.print("Number is Not Prime");
 
         else
-        System.out.print("Number is Not Prime");
+        System.out.print("Number is Prime");
     }
 }
